@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <title> Records Submission </title>
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <script type="text/javascript" src="Js/scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <img src="Images/login-logo.png" alt="KCAU Logo">
+            </div>
+            <form method="post" action="/details-form" class="form" onsubmit=" return validate_main()">
+                <input type="number" name="regno" placeholder="Your Regno">
+                <input type="text" name="name" placeholder="Full Names">
+                <input type="text" name="organization" placeholder="Name of the Organization/Company attached">
+                <input type="text" name="address" placeholder="Address of the Organization/Company attached">
+                <input type="text" name="location" placeholder="Location of the Organization/Company attached">
+                <input type="text" name="supervisor" placeholder="Name of the Industry-based Supervisor">
+                <input type="number" name="pnumber" placeholder="Phone Number of the Industry-based Supervisor"><br>
+                <label for="sdate" class="label">Start Date</label>
+                <input type="date" name="sdate" placeholder="Start Date of the Attachment">
+                <label for="edate" class="label">End Date</label>
+                <input type="date" name="edate" placeholder="End Date of the Attachment">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Page -->
+    <footer class="footer">
+        <p>All Rights &copy; Reserved KCA University 2022</p>
+    </footer>
+</body>
+</html>
